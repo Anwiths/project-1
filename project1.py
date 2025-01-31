@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-df = pd.read_csv('C:/Users/Anwith/Downloads/50_Startups.csv')  # Update with actual dataset path
+df = pd.read_csv('C:/Users/Anwith/Downloads/50_Startups.csv') 
 X = df[['R&D Spend', 'Administration', 'Marketing Spend']]
 y = df['Profit']
 
